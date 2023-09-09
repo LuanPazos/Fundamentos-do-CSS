@@ -1,20 +1,18 @@
-h1 {
-  color: rgb(0, 255, 64);
-  background-color: chocolate;
+.yellow-text{
+  color: orange !important;
+  font-size: 20px;
 }
 
-h4 {
-  color: rgb(0, 0, 0);
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  background-color: brown;
+.big-text{
+  font-size: 40px;
 }
 
-html, body {
-  background-color: bisque;
+#europa-text {
+  font-size: 10px;
+  color: blue !important;
 }
 
-ul{
-  background-color: aqua;
-  list-style-type: upper-roman;
+li{
+  color: brown;
 }
+  
