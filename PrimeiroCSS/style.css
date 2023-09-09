@@ -1,0 +1,20 @@
+h1 {
+  color: rgb(0, 255, 64);
+  background-color: chocolate;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  background-color: brown;
+}
+
+html, body {
+  background-color: bisque;
+}
+
+ul{
+  background-color: aqua;
+  list-style-type: upper-roman;
+}
