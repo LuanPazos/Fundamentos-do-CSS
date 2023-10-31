@@ -1,0 +1,20 @@
+.inline{
+  /* sem quebra de linhas, largura minima */
+  display: inline;
+  margin-top: 10px; /* nao aceita margem nem preenchimmento vertical, apenas horizontal*/
+  margin-left: 20px;
+}
+
+.block{
+  /* com quebra de linhas, usa largura maxima */
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.inline-block{
+  /* sem quebra de linhas, usa largura maxima */
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
