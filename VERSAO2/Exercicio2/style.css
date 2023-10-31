@@ -5,15 +5,19 @@
 }
 li{
   background-color: rgb(37, 36, 35);
+  border: 4px solid transparent;
+  border-radius: 4px;
 
-  padding-top: 10px;
-  padding-bottom: 100px;
-  padding-left: 10px;
-  padding-right: 40px;
+  padding: 32px;
 
   display: inline-block;
   margin: 10px;
   color: #fff;
+
+  height: 250px;
+  width: 400px;
+
+  cursor: pointer;
 }
 
 h2,p{
