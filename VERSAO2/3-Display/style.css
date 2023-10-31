@@ -6,15 +6,17 @@
 }
 
 .block{
-  /* com quebra de linhas, usa largura maxima */
+  /* com quebra de linhas, usa largura maxima, aceita margem e preenchimento vertical e horizontal*/
   display: block;
   margin-top: 10px;
   margin-left: 20px;
 }
 
 .inline-block{
-  /* sem quebra de linhas, usa largura maxima */
+  /* This CSS code block sets the display property of an element to not allow line breaks, use the maximum width available, and not accept any overflow content. */
+  /* nao quebra as linhas, usa largura maxima, nao aceita  */
   display: inline-block;
   margin-top: 10px;
+  padding-top: 100px;
   margin-left: 20px;
 }
