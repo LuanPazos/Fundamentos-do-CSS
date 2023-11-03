@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du&family=Montserrat:wght@400;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -18,7 +20,12 @@ header{
 header h1{
   padding-top: 0.7em;
   padding-bottom: 0.5em;
+  font-family: 'Kay Pho Du',serif;
   /* mudar a fonte dps */
+}
+
+p{
+  font-family: 'Montserrat';
 }
 
 /* BODY */
