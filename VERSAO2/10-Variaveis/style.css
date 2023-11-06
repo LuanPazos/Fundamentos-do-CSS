@@ -1,0 +1,35 @@
+:root{
+  --cor-principal: #0011fc;
+  --cor-clara: #c0c0c0;
+  --cor-escura: #232323;
+  --cor-secundaria: #ff0000;
+  --preenchimento-pq: .25rem 1rem;
+  --preenchimento-md: .5rem 2rem;
+  --preenchimento-gd: .75rem 3rem;
+}
+
+body{
+  font-size: larger;
+}
+
+header{
+  background-color: var(--cor-escura);
+  color: var(--cor-clara);
+  padding: var(--preenchimento-pq);
+}
+
+section{
+  background-color: var(--cor-clara);
+  padding: var(--preenchimento-md);
+}
+
+div{
+  background-color: var(--cor-principal);
+  color: var(--cor-clara);
+  padding: var(--preenchimento-gd);
+}
+
+.red-box{
+  /* trocando o valor apenas nessa classe */
+  --cor-principal: var(--cor-secundaria);
+}
