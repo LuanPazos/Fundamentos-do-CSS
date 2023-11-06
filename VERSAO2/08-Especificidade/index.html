@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificidade do CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Especificidade do CSS</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>O que é especificidade?</h2>
+      <p>A especificidade é a maneira como o navegador decide qual regra CSS deve ser aplicada a um elemento quando há várias regras que se aplicam a ele.</p>
+    </article>
+
+    <article>
+      <h2>Como a especificidade é calculada?</h2>
+      <p>A especificidade é calculada com base nos seletores usados em uma regra CSS. Cada seletor tem um valor de especificidade associado a ele.</p>
+      <p>O valor de especificidade é calculado da seguinte maneira:</p>
+      <ul>
+        <li><strong>1 ponto</strong> para cada seletor do tipo ou seletor universal (*).</li>
+        <li><strong>10 pontos</strong> para cada seletor de classe, pseudo-classe ou atributo.</li>
+        <li><strong>100 pontos</strong> para cada seletor de ID.</li>
+        <li><strong>1000 pontos</strong> para cada estilo inline.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h2>Como o navegador decide qual regra aplicar?</h2>
+      <p>Quando há várias regras que se aplicam a um elemento, o navegador escolhe a regra com a maior especificidade. Se houver empate, a regra que aparece por último no código é aplicada.</p>
+    </article>
+  </main>
+
+  <div id="especificidade">
+    <h2>Exemplos de cálculo de especificidade</h2>
+    <p>Veja alguns exemplos de como a especificidade é calculada:</p>
+    <ul>
+      <li><strong>h1</strong> - Especificidade: 1-0-0-0</li>
+      <li><strong>ul li</strong> - Especificidade: 0-0-0-2</li>
+      <li><strong>.menu a.active</strong> - Especificidade: 0-1-2-0</li>
+      <li><strong>#conteudo p</strong> - Especificidade: 0-1-0-1</li>
+      <li><strong>style="color: red;"</strong> - Especificidade: 1-0-0-0</li>
+    </ul>
+    <p>Observe que o valor de especificidade é sempre representado por quatro números separados por hífens. O primeiro número representa o valor de especificidade dos seletores de ID, o segundo representa o valor de especificidade dos seletores de classe, pseudo-classe e atributo, o terceiro representa o valor de especificidade dos seletores de tipo e o último representa o valor de especificidade dos seletores universais.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 - Especificidade do CSS</p>
+  </footer>
+</body>
+</html>
