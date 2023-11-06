@@ -1,0 +1,51 @@
+li {
+  font-size: 1.5rem;
+}
+
+/* seletor :nth-child() */
+li:nth-child(2) {
+  color: red;
+}
+
+/* elementos impares */
+li:nth-child(odd) {
+  color: blue;
+}
+
+/* Mouse em cima */
+li:hover{
+  background-color: rgb(0, 0, 0);
+  color: seashell;
+}
+
+input:focus{
+  background-color: rgb(255, 0, 0);
+  color: seashell;
+}
+
+/* pseudo-elementos */
+/* ::before e ::after */
+li::before{
+  content: ">";
+  color: red;
+}
+
+li::after{
+  content: "<";
+  color: rgb(0, 255, 55);
+}
+
+/*  */
+li:first-child{
+  color: rgb(0, 255, 0);
+}
+
+li:last-child{
+  color: rgb(0, 255, 255);
+}
+
+li:not(:first-child){
+  background-color: antiquewhite;
+}
+
+/*  */
